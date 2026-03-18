@@ -1,12 +1,9 @@
-import { Button } from '@heroui/react'
-import React from 'react'
+import React from 'react';
+import AppRoutes from './routes/AppRoutes';
 
-function App () {
+function App() {
   return (
-    <div>
-      <Button color='primary'>test</Button>
-      test
-    </div>
+    <AppRoutes />
   )
 }
 
