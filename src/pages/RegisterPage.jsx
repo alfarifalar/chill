@@ -6,6 +6,7 @@ import { FcGoogle } from 'react-icons/fc'
 
 function RegisterPage() {
   const [password, setPassword] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
   // eslint-disable-next-line no-unused-vars
   const [submitted, setSubmitted] = useState(null)
   const [errors, setErrors] = useState({})
@@ -146,8 +147,8 @@ function RegisterPage() {
                   }
                   return errors.confirmPassword
                 }}
-                value={password}
-                onValueChange={setPassword}
+                value={confirmPassword}
+                onValueChange={setConfirmPassword}
               />
               <div className='flex justify-between mt-2 sm:mt-3'>
                 <span className='text-light-secondary text-[10px] sm:text-base'>
