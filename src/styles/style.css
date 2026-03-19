@@ -2,3 +2,39 @@
 @plugin './hero.ts';
 @source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 @custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary: hsla(230, 100%, 60%, 1);
+  --color-primary-100: hsla(231, 72%, 50%, 1);
+  --color-primary-200: hsla(232, 76%, 41%, 1);
+  --color-primary-300: hsla(233, 81%, 32%, 1);
+  --color-primary-400: hsla(234, 86%, 26%, 1);
+
+  --color-dark: hsla(265, 10%, 23%, 0.87);
+  --color-dark-secondary: hsla(265, 10%, 23%, 0.68);
+  --color-dark-disabled: hsla(265, 10%, 23%, 0.38);
+
+  --color-light: hsla(0, 0%, 100%, 1);
+  --color-light-secondary: hsla(250, 81%, 94%, 0.68);
+  --color-light-disabled: hsla(250, 81%, 94%, 0.38);
+
+  --color-paper: hsla(195, 11%, 15%, 1);
+  --color-body: hsla(192, 5%, 19%, 1);
+  --color-header: hsla(210, 8%, 10%, 1);
+  --color-extra: hsla(192, 4%, 25%, 1);
+
+  --color-outline: hsla(250, 81%, 94%, 0.23);
+  --color-input-normal: hsla(250, 81%, 94%, 0.22);
+  --color-input: hsla(250, 81%, 94%, 0.04);
+  --color-chip: hsla(250, 81%, 94%, 0.08);
+
+  --color-error-light: hsla(29, 100%, 92%, 0.5);
+  --color-error: hsla(10, 100%, 61%, 1);
+  --color-error-hover: hsla(5, 71%, 51%, 1);
+  --color-error-pressed: hsla(1, 73%, 42%, 1);
+
+}
+
+body{
+  font-family: Lato;
+}
